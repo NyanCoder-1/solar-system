@@ -80,8 +80,6 @@ public class body {
     
     public void draw () {
         
-        System.out.print(getTransform());
-        
         batch.setProjectionMatrix(cam.projection);
         batch.setTransformMatrix(getTransform());
         batch.begin();
